@@ -24,11 +24,11 @@ export default function (cssModulesOptions) {
                                 });
 
                                 const css = postcss([CSSModulesSync(localOptions)])
-                                    .process(styleNode.val, {
+                                    .process(styleNode.file.str, {
                                         from: styleNode.filename,
                                     }).css;
 
-                                styleNode.val = css;
+                                styleNode.file.str = css;
                             });
                     } else {
                         node.attrs
