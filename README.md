@@ -1,3 +1,5 @@
+### REPOSITORY IS DEPRICATED AND NOT SUPPORTED ANYMORE
+
 # pug-plugin-css-modules
 A [Pug] plugin to use [CSS Modules].
 
